@@ -1,0 +1,344 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+p{
+  text-align: center;
+}
+
+h1{
+  color:white;
+  text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #1a312a;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px; /* Set the width of your icon */
+    margin-right: 10px;
+  }
+  
+  .website-name {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #66a1ff; /* Change color on hover */
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: #66a1ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .nav-links {
+      margin-top: 10px;
+    }
+  }
+#search
+{
+    background-color: black;
+}  
+
+.imagecontainer
+{ 
+background-color:azure
+    width:100%;
+    margin-top:5px;
+}
+
+.containerafterimage
+{
+    
+    background-color: rgb(0, 0, 0);
+    border:2px solid rgb(0, 0, 0);
+    height:500px;
+}
+.hhh
+{
+   color: white;
+    display: flex;
+    flex-wrap:wrap ;
+    width:100%;
+    height:10%;
+    justify-content: center;
+    align-items:center ;
+    word-wrap: break-word;
+}
+
+.container2
+{
+  width:100%;
+  height: 400px;
+  background-color: black;
+}
+.head
+{
+  height:10%;
+}
+.imagepluspara
+{
+  padding: 3px;
+  display: flex;
+  width:100%;
+  height: 90%;
+
+}
+.image{
+  padding: 10px;
+  display: flex;
+  height: 100%;
+  width:50%;
+}
+.para{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  haight:100%;
+  width: 50%;
+  color: white;
+  font-size:x-large;
+}
+@media only screen and (max-width: 1100px) {
+  p {
+    font-size: large;
+  }
+}
+@media only screen and (max-width:900px) {
+  p {
+    font-size: large;
+  }
+}
+@media only screen and (max-width:660px) {
+  p {
+    font-size:smaller;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width:700px) {
+  p {
+    font-size:12px;
+    line-height: 25px;
+  }
+}
+@media only screen and (max-width:545px) {
+  p {
+    font-size:10px;
+    line-height: 25px;
+  }
+}
+
+/* foooter code start from here */
+.foot
+{
+  margin-top: 5px;
+  display:flex;
+  width:100%;
+  height:120px;
+  background-color: aliceblue;
+  justify-content: space-evenly;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+height: 100%;
+padding-top: 2%;
+
+flex-grow: 1;
+}
+.personal
+{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  word-wrap: break-word;
+  
+  
+  flex-grow: 1;
+}
+.help
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  flex-grow: 1;
+}
+.any
+{
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+
+  flex-grow: 1;
+}
+.copyright
+{
+  display: flex;
+  justify-content: center;
+  height:40px;
+  width:100%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(177, 166, 166);
+  align-items:center ;
+  
+  
+}
+.contact h3{
+  text-align: center;
+}
+
+.socialmediaicons
+{
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+}
+.ic{
+  display: flex;
+  width:15%;
+  height:28px;
+  margin-top: 2px;
+  text-align: center;
+  
+  
+
+  border-radius: 10%;
+}
+#what
+{
+  background-image: url("images/whatsapp icon.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#face
+{
+  background-image: url("images/facebook.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#insta
+{
+  background-image: url("images/instagram.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#tweet
+{
+  background-image: url("images/twitter.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#link
+{
+  background-image: url("images/linkdin.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.personalchadiv{
+  align-items: center;
+  margin-top: 5%;
+}
+
+/* ata suru hot ahe kam main container ch */
+
+
+.maincontainer{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  width:100%;
+  height:500px;
+  background-color:#1e1e1a;
+  align-items: center;
+  margin-top:5px;
+
+}
+.maincontainerbox
+{
+  display: flex;
+  
+  width:45%;
+  height: 90%;
+  border:solid 4px azure;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color:azure;
+}
+.button
+{
+  font-weight: bolder;
+  font-style: oblique;
+  font-size: larger;
+  width:70%;
+  height:35%;
+  color: white;
+  background-color: black;
+}
+
+@media only screen and (max-width:440px) {
+  .personal{
+    font-size:smaller;
+    
+  }
+}
+
+.button:hover{
+  background-color: red;
+}
